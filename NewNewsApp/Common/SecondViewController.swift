@@ -74,7 +74,7 @@ class SecondViewController: UIViewController {
         labelInfo.snp.makeConstraints { make in
             make.leading.trailing.equalToSuperview().inset(30)
             make.top.equalTo(labelName.snp.bottom).offset(20)
-            make.height.equalTo(120)
+            make.height.equalTo(210)
 
         }
         imagView.snp.makeConstraints { make in
